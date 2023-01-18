@@ -62,10 +62,10 @@
   color: grey;
 }
 
-.icon-btn:hover {
+/* .icon-btn:hover {
   transform: scale(1.10);
   color: #FFFFFF;
-}
+} */
 
 .linkedin:hover {
   background-color: #0077b5;
@@ -201,7 +201,7 @@ nav i {
 
 main {
   background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
+  padding-left: 300px;
 }
 
 dl {
@@ -219,15 +219,15 @@ dt {
   margin-left: 0.5rem;
 }
 
-ul.side-nav {
-  width: 190px;
+ul.sidenav {
+  width: 300px;
 }
 
-ul.side-nav li {
+ul.sidenav li {
   padding: 0;
 }
 
-/* ul.side-nav.fixed a {
+/* ul.sidenav.sidenav-fixed a {
   box-sizing: content-box;
   color: rgb(48, 122, 207);
   display: block;
@@ -235,20 +235,24 @@ ul.side-nav li {
   padding: 10px 0 12px;
 } */
 
-ul.side-nav.fixed a {
+ul.sidenav.sidenav-fixed a {
   box-sizing: content-box;
   color: rgb(16, 202, 56);
   display: block;
-  line-height: 100%;
-  padding: 10px 0 12px;
+  /* line-height: 100%; */
+  /* padding: 10px 0 12px; */
 }
+/* .table-of-contents .logo a.brand-logo.active, .table-of-contents .logo a.brand-logo.active :hover{
+    padding-left: 40px;
+    border-left: none;
+} */
 
-ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
+/* ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
   border: none;
   font-weight: 200;
-}
+} */
 
-/* ul.side-nav.fixed li.logo {
+/* ul.sidenav.sidenav-fixed li.logo {
   background-color: #fafafa;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
@@ -256,39 +260,44 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
   padding: 30px 30px 40px;
 } */
 
-ul.side-nav.fixed li.logo {
+ul.sidenav.sidenav-fixed li.logo {
   background-color: #fafafa;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
-  min-height: 90px;
-  padding: 30px 30px 40px;
+  min-height: 140px;
+  padding-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-ul.side-nav.fixed li.logo a {
+/* ul.sidenav.sidenav-fixed li.logo a {
   font-weight: 200;
   line-height: 100%;
-}
+} */
 
-ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
+/* ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
   background-color: #fafafa;
   border-left: 3px solid;
-}
+} */
 
-ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
+/* ul.sidenav.sidenav-fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
   color: #333 !important;
-}
+} */
 
-li.logo span {
+/* li.logo span {
   display: block;
   font-size: 14px;
-}
+} */
 
-.brand-logo h1 {
+/* .brand-logo h1 {
   font-size: inherit;
   line-height: inherit;
   margin: inherit;
   font-weight: inherit;
-}
+} */
 
 .container {
   width: 95%;
@@ -591,7 +600,7 @@ small {
     padding-left: 0px;
     padding-top: 64px;
   }
-  ul.side-nav a {
+  ul.sidenav a {
     line-height: 100%;
     padding: 0;
     width: 100%;

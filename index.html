@@ -10,19 +10,10 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
   <!-- Font Awesome Icon - CSS-->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Custom Styles-->
   <link rel="stylesheet" href="/assets/css/style.css" />
   <title>Santhosh Balakrishnan | Software Developer</title>
-
-  <!-- Global site tag (gtag.js) -   Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-126939217-2');
-  </script>
 
   <!-- Open Graph-->
   <meta property="og:locale" content="en_US" />
@@ -35,12 +26,13 @@
   <meta property="og:image" content="https://santhoshoutright.github.io/examples/preview.JPG" />
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@varad_bhogayata" />
+  <meta name="twitter:site" content="@SanthoshOut" />
   <meta name="twitter:title" content="Coder | Technofreak | Explorer | Minimalist | Humane" />
   <meta name="twitter:description" content="Software Developer" />
-  <meta name="twitter:url" content="https://twitter.com/varad_bhogayata" />
+  <meta name="twitter:url" content="https://twitter.com/SanthoshOut" />
   <meta name="author" content="Santhosh Balakrishnan" />
-  <meta name="description" content="Software Developer with a passion for backend development and artificial intelligence." />
+  <meta name="description"
+    content="Software Developer with a passion for backend development and artificial intelligence." />
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
   <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
@@ -64,91 +56,64 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
+
   <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
+    <ul class="sidenav sidenav-fixed section table-of-contents" style="transform: translateX(0px);">
 
       <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/profile.png" class="circle img-responsive profile-pic" alt="avatar">
-        </a>
+        <!-- <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"> -->
+        <img src="/assets/img/profile.png" class="circle responsive-img profile-pic" alt="avatar">
+        <!-- </a> -->
       </li>
 
       <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text">
+          <i class="material-icons small">person</i>
+          <span>About</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+        <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark teal-text">
+          <i class="material-icons small">trending_up</i>
+          <span>Experience</span></a>
       </li>
 
       <li class="bold">
         <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+               mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text">
+          <i class="material-icons small">library_books</i>
+          <span>Projects</span></a>
       </li>
 
       <li class="bold">
-        <!--
-        ICONS:
-        mdi-action-assessment
-        mdi-social-poll
-        mdi-av-equalizer
-        -->
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text">
+          <i class="material-icons small">assessment</i>
+          <span>Skills</span></a>
       </li>
-      
+
       <li class="bold">
-        <!--
-        ICONS:
-        -->
         <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
+            class="material-icons small">school</i><span>Education</span></a>
       </li>
 
       <li class="bold">
-        <!-- 
-        1. mdi-communication-contacts
-        2. mdi-content-mail
-        3. mdi-communication-email
-        -->
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text">
+          <i class="material-icons small">contact_mail</i><span>Contact</span></a>
       </li>
 
       <li class="bold">
-        <!--
-        ICONS:
-        1. mdi-action-description
-        2. mdi-file-folder
-        3. mdi-file-folder-open
-        4. mdi-file-attachment
-        5. mdi-file-folder-shared
-        -->
-        <!-- <a aria-label="Open Varad's resume in a new tab" href="#resume" target="_blank"
-          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
-        <a aria-label="Open Varad's resume in a new tab" href="https://santhoshoutright.github.io/assets/resume/Varad_Bhogayata_Resume.pdf" target="_blank"
-        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+        <a aria-label="Open Santhosh's resume in a new tab"
+          href="https://santhoshoutright.github.io/assets/resume/Santhosh_Bhogayata_Resume.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"><i
+            class="material-icons small">folder_open</i><span>Resume</span></a>
       </li>
     </ul>
   </nav>
 
   <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+  <nav class="hide-on-large only sidenav-trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-target="slide-out" class="button-collapse"><i
+        class="mdi-navigation-menu material-icons dp48"></i></a>
     <div class="name-title">
       <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Santhosh
         Balakrishnan</a><span class="black-text">Full Stack Software Developer</span>
@@ -157,7 +122,7 @@
 
   <!-- Nav class 3 -->
   <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
+    <ul id="slide-out" class="sidenav">
       <li class="bold">
         <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
             class="mdi-social-person small"></i><span>About</span></a>
@@ -185,12 +150,14 @@
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Open Varad's Resume in a new tab"
+        <a aria-label="Open Santhosh's Resume in a new tab"
           href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+          class="waves-effect waves-dark teal-text"><i
+            class="material-icons small">folder_open</i><span>Resume</span></a>
       </li>
     </ul>
   </nav>
+
 
   <!-- Main Content-->
   <main>
@@ -204,7 +171,8 @@
               <h2>Hi, I'm <span class="teal">Santhosh Balakrishnan.</span></h2>
               <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
               <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.</h5>
+              <h5>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and
+                challenging real-world problems.</h5>
             </div>
             <div class="social">
               <a href="http://linkedin.com/in/santhoshout" target="_blank">
@@ -217,20 +185,6 @@
                   <i class="fa fa-github"></i>
                 </button>
               </a>
-
-              <!-- <a href="https://angel.co/u/varad_bhogayata" target="_blank">
-                <button class="icon-btn angellist">
-                  <i class="fa fa-angellist"></i>
-                </button>
-              </a> -->
-
-              <!-- <a href="http://linkedin.com/in/santhoshoutright" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-
-                  </span>
-              </a> -->
             </div>
             <div class='buttons'>
               <a href="#about" class="readme">Read More</a>
@@ -250,43 +204,33 @@
             A Software Developer with a passion for Backend Development and Artificial Intelligence.
 
           </h2>
-        </blockquote> -->        
+        </blockquote> -->
         <p>
-          I am a Computer Science Grad Student at Arizona State University. I enjoy problem-solving and coding. Always strive to bring 100% to the work I do.
+          I am a Computer Science Grad Student at Arizona State University. I enjoy problem-solving and coding. Always
+          strive to bring 100% to the work I do.
 
-          I have worked on technologies like Python, Django, Flask, MySQL, PostgreSQL, MongoDB, HTML5, CSS, Java, C++ during my bachelor's. I have 19 months of professional work experience which helped me strengthen my experience in Python, Flask, and Django.
+          I have worked on technologies like Python, Django, Flask, MySQL, PostgreSQL, MongoDB, HTML5, CSS, Java, C++
+          during my bachelor's. I have 19 months of professional work experience which helped me strengthen my
+          experience in Python, Flask, and Django.
 
-          I am passionate about developing complex applications that solve real-world problems impacting millions of users.
+          I am passionate about developing complex applications that solve real-world problems impacting millions of
+          users.
         </p>
         <p>
-          <ul>
-            <li><b>Languages:</b> Python, Java, JavaScript, C, C++, HTML/CSS, Bash</li>
-            <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB</li>
-            <li><b>Libraries:</b> NumPy, Pandas, OpenCV</li>
-            <li><b>Frameworks:</b> Flask, Django, Node.js, Keras, TensorFlow, PyTorch, Bootstrap, Apache Beam</li>
-            <li><b>Tools & Technologies:</b> Git, Docker, AWS, GCP, Heroku, JIRA</li>
-          </ul>
-          
+        <ul>
+          <li><b>Languages:</b> Python, Java, JavaScript, C, C++, HTML/CSS, Bash</li>
+          <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB</li>
+          <li><b>Libraries:</b> NumPy, Pandas, OpenCV</li>
+          <li><b>Frameworks:</b> Flask, Django, Node.js, Keras, TensorFlow, PyTorch, Bootstrap, Apache Beam</li>
+          <li><b>Tools & Technologies:</b> Git, Docker, AWS, GCP, Heroku, JIRA</li>
+        </ul>
+
         </p>
-          
-        <!-- <p>
-          
-          Detail-oriented Software Developer with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
-        </p> -->
         <p>
-          Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.
+          Looking for an opportunity to work in a challenging position combining my skills in Software Engineering,
+          which provides professional development, interesting experiences and personal growth.
         </p>
-        <!-- <p>
-          Another Paragraph
-        </p>  -->
-        <!-- <p>
-        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
-          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
-          aria-label="Navigate to the Full Stack React homepage"
-          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
-          aria-label='Navigate to the article "Scalable CSS"'
-          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
-        </p> -->
+
       </div>
     </section>
 
@@ -318,10 +262,12 @@
                 Developed and managed the backend of an e-commerce platform using Flask, MongoDB, and AWS.
               </li>
               <li>
-                Worked on three web applications targeting customers, selling vendors, and admin users; built 50+ RESTful APIs with functionalities
-such as login/sign up, view a product, add a product to cart, checkout the order, etc.
+                Worked on three web applications targeting customers, selling vendors, and admin users; built 50+
+                RESTful APIs with functionalities
+                such as login/sign up, view a product, add a product to cart, checkout the order, etc.
               </li>
-              <li>Improved the response time by 20% by refactoring the codebase and changing database design and queries.</li>
+              <li>Improved the response time by 20% by refactoring the codebase and changing database design and
+                queries.</li>
               <li>Added a bulk upload feature which reduced the manual work of adding products into a database.</li>
               <li>
                 <b>Tools:</b> Python, Flask, MongoDB
@@ -333,7 +279,7 @@ such as login/sign up, view a product, add a product to cart, checkout the order
           </div>
         </div>
 
-        
+
         <div class="card">
           <div class="card-content">
             <div class="row">
@@ -352,18 +298,24 @@ such as login/sign up, view a product, add a product to cart, checkout the order
             <div class="role brown-text text-darken-2">Programmer Analyst</div>
             <ul>
               <li>
-                Customized a tree-based optimization algorithm that separates drugs into distinct groups to maximize the concurrent execution of drug
-dispenser robots; improved an optimization algorithm that reduced the cycle-time of the automation process by 25%.
+                Customized a tree-based optimization algorithm that separates drugs into distinct groups to maximize the
+                concurrent execution of drug
+                dispenser robots; improved an optimization algorithm that reduced the cycle-time of the automation
+                process by 25%.
               </li>
               <li>
-                Devised a customized recursion algorithm to extend the functionality of the current environment to a multi-robot and multi-system
-environment
+                Devised a customized recursion algorithm to extend the functionality of the current environment to a
+                multi-robot and multi-system
+                environment
               </li>
               <li>
-                Built a modular video analytics app using Flask, OpenCV that tracks the location of each human in a multi-camera environment;
-utilized perspective transformation, object detection, and object tracking to find the location of a human.
+                Built a modular video analytics app using Flask, OpenCV that tracks the location of each human in a
+                multi-camera environment;
+                utilized perspective transformation, object detection, and object tracking to find the location of a
+                human.
               </li>
-              <li>Increased the speed of the video analytics app by 20% by using a customized YOLOv3 algorithm to perform object detection and
+              <li>Increased the speed of the video analytics app by 20% by using a customized YOLOv3 algorithm to
+                perform object detection and
                 DeepSORT algorithm for multi-object tracking.</li>
               <li>
                 <b>Tools:</b> Python, Flask, OpenCV, Keras, Tensorflow, PyTorch
@@ -395,8 +347,9 @@ utilized perspective transformation, object detection, and object tracking to fi
             <div class="role brown-text text-darken-2">Software Developer</div>
             <ul>
               <li>
-                Programmed a cloud-based web app using Flask and JavaScript aimed at storing, visualizing, and tracking temperature and humidity
-of each drug container to estimate the degradation of the drug.
+                Programmed a cloud-based web app using Flask and JavaScript aimed at storing, visualizing, and tracking
+                temperature and humidity
+                of each drug container to estimate the degradation of the drug.
               </li>
               <li>
                 Created an alert system to send notifications and emails when the parameters exceed the threshold.
@@ -461,7 +414,8 @@ of each drug container to estimate the degradation of the drug.
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/project-music-player.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="music streaming app" src="/assets/img/project-music-player.png"
+                  style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Music Player Web-App<i
@@ -472,9 +426,8 @@ of each drug container to estimate the degradation of the drug.
               </div>
               <div class="card-reveal">
                 <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                <span class="card-title grey-text"><small>Accomplishments</small>
+                  <i class="material-icons right">close</i></span>
                 <ul>
                   <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku</li>
                   <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
@@ -485,12 +438,13 @@ of each drug container to estimate the degradation of the drug.
 
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
+                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank"
+                    data-position="top" data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/santhoshoutright/music-player"
-                    target="_blank" data-position="top" data-tooltip="View Source"
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/santhoshoutright/music-player" target="_blank" data-position="top"
+                    data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
@@ -501,7 +455,8 @@ of each drug container to estimate the degradation of the drug.
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/project-quizup-logo-1.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="quiz app" src="/assets/img/project-quizup-logo-1.png" style="height: 100%; width: 100%"
+                  class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Quiz Web-App<i
@@ -513,8 +468,8 @@ of each drug container to estimate the degradation of the drug.
               <div class="card-reveal">
                 <!-- TODO: change this -- only close button -->
                 <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                <span class="card-title grey-text"><small>Accomplishments</small>
+                  <i class="material-icons right">close</i></span>
                 <ul>
                   <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, Heroku</li>
                   <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
@@ -577,7 +532,7 @@ of each drug container to estimate the degradation of the drug.
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Screenshot of web app" src="/assets/img/project-blog-logo.jpg"
-                style="height: 100%; width: 100%" class="activator" />
+                  style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Blog Web-App<i
@@ -590,7 +545,7 @@ of each drug container to estimate the degradation of the drug.
                 <!-- TODO: change this -- only close button -->
                 <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
                 <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                    class="material-icons right">close</i></span>
                 <ul>
                   <li><b>Tools:</b> HTML, CSS, Bootstrap, Flask, SQLAlchemy, Postgresql, Python</li>
                   <li>Users can view posts and contact the admin via Contact Page.</li>
@@ -599,12 +554,13 @@ of each drug container to estimate the degradation of the drug.
 
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
+                  <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank"
+                    data-position="top" data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/santhoshoutright/flask-blog"
-                    target="_blank" data-position="top" data-tooltip="View Source"
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/santhoshoutright/flask-blog" target="_blank" data-position="top"
+                    data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
@@ -616,7 +572,8 @@ of each drug container to estimate the degradation of the drug.
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/project-aim_bert-bias.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="Screenshot of  web app" src="/assets/img/project-aim_bert-bias.png"
+                  style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Visual Question Answering<i
@@ -627,9 +584,9 @@ of each drug container to estimate the degradation of the drug.
               </div>
               <div class="card-reveal">
                 <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+
                 <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                    class="material-icons right">close</i></span>
                 <ul>
                   <li>Incorporated Convolution Neural Networks (CNN) for extracting image features and Long Short Term
                     Memory for extracting question
@@ -653,7 +610,8 @@ of each drug container to estimate the degradation of the drug.
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/computer-vision-v2-04.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="Screenshot of  web app" src="/assets/img/computer-vision-v2-04.png"
+                  style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Video Summarizer<i
@@ -664,9 +622,8 @@ of each drug container to estimate the degradation of the drug.
               </div>
               <div class="card-reveal">
                 <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
                 <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                    class="material-icons right">close</i></span>
                 <ul>
                   <li>Incorporated CNN to detect and classify objects in the video frames and Long Short Term Memory for
                     generating a summary.</li>
@@ -690,7 +647,8 @@ of each drug container to estimate the degradation of the drug.
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/gan.jpg" style="height: 100%; width: 100%" class="activator" />
+                <img alt="Screenshot of  web app" src="/assets/img/gan.jpg" style="height: 100%; width: 100%"
+                  class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Image Generator<i
@@ -701,9 +659,8 @@ of each drug container to estimate the degradation of the drug.
               </div>
               <div class="card-reveal">
                 <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
                 <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                    class="material-icons right">close</i></span>
                 <ul>
                   <li>Developed system was tested on a human-face database and loss was calculated by comparing the PCAs
                     of generated and original image.</li>
@@ -725,7 +682,9 @@ of each drug container to estimate the degradation of the drug.
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/Blog-Images-Forget-Machine-Learning-Humans-Still-Have-a-Lot-to-Learn-Part-II.jpg" style="height: 100%; width: 100%" class="activator" />
+                <img alt="Screenshot of  web app"
+                  src="/assets/img/Blog-Images-Forget-Machine-Learning-Humans-Still-Have-a-Lot-to-Learn-Part-II.jpg"
+                  style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Head Counting System<i
@@ -736,9 +695,8 @@ of each drug container to estimate the degradation of the drug.
               </div>
               <div class="card-reveal">
                 <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
                 <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
+                    class="material-icons right">close</i></span>
                 <ul>
                   <li>Used Singular Value Decomposition for image compression; applied various image processing
                     techniques and morphological operations to
@@ -909,11 +867,12 @@ of each drug container to estimate the degradation of the drug.
             <div class="card">
               <div class="card-content">
                 <p>
-                  <span class="card-title"><a href="https://www.asu.edu/" target="_blank" class="teal-text hoverline">Arizona State University</a></span>
+                  <span class="card-title"><a href="https://www.asu.edu/" target="_blank"
+                      class="teal-text hoverline">Arizona State University</a></span>
                 </p>
                 <p class="brown-text">Tempe, USA</p>
                 <p>
-                  <b>Degree: </b>Master of Science in Computer Science      
+                  <b>Degree: </b>Master of Science in Computer Science
                   <br>
                   <b>CGPA: </b>4.0/4.0
                 </p>
@@ -924,7 +883,7 @@ of each drug container to estimate the degradation of the drug.
                   <ul>
                     <li>Distributed Database Systems</li>
                     <li>Cloud Computing</li>
-                    <li>Foundations of Algorithms</li>                    
+                    <li>Foundations of Algorithms</li>
                   </ul>
                   </p>
 
@@ -932,13 +891,15 @@ of each drug container to estimate the degradation of the drug.
               </div>
             </div>
 
-            
+
           </div>
           <div class="col s12 m6 l6">
             <div class="card">
               <div class="card-content">
                 <p>
-                  <span class="card-title"><a href="https://ahduni.edu.in/academics/schools-centres/school-of-engineering-and-applied-science/" target="_blank" class="teal-text hoverline">School of Engineering and Applied Science, Ahmedabad
+                  <span class="card-title"><a
+                      href="https://ahduni.edu.in/academics/schools-centres/school-of-engineering-and-applied-science/"
+                      target="_blank" class="teal-text hoverline">School of Engineering and Applied Science, Ahmedabad
                       University</a></span>
                 </p>
                 <p class="brown-text">Ahmedabad, India</p>
@@ -973,29 +934,30 @@ of each drug container to estimate the degradation of the drug.
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
         <p>
-          <a aria-label="Call Varad" data-position="top" data-tooltip="Call Varad"
+          <a aria-label="Call Santhosh" data-position="top" data-tooltip="Call Santhosh"
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
-              aria-label="Call Varad">+14805722456</a></a>
+              aria-label="Call Santhosh">+918870533887</a></a>
         </p>
         <p>
-          <a aria-label="Email Varad" href="mailto:vbhogayata@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Varad" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Varad" href="mailto:vbhogayata@gmail.com"
-              class="hoverline">vbhogayata@gmail.com</a></a>
+          <a aria-label="Email Santhosh" href="mailto:santhoshoutright@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Santhosh"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Santhosh" href="mailto:santhoshoutright@gmail.com"
+              class="hoverline">santhoshoutright@gmail.com</a></a>
         </p>
         <p>
-          <a aria-label="View Varad on GitHub" href="http://github.com/santhoshoutright" target="_blank"
-            data-position="top" data-tooltip="View Varad on GitHub"
+          <a aria-label="View Santhosh on GitHub" href="http://github.com/santhoshoutright" target="_blank"
+            data-position="top" data-tooltip="View Santhosh on GitHub"
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Varad on Github" href="http://github.com/santhoshoutright" class="hoverline"
+              aria-label="Santhosh on Github" href="http://github.com/santhoshoutright" class="hoverline"
               target="_blank">github.com/santhoshoutright</a></a>
         </p>
         <p>
-          <a aria-label="View Varad on LinkedIn" href="http://linkedin.com/in/santhoshoutright" target="_blank"
-            data-position="top" data-tooltip="View Varad on LinkedIn"
+          <a aria-label="View Santhosh on LinkedIn" href="http://linkedin.com/in/santhoshout" target="_blank"
+            data-position="top" data-tooltip="View Santhosh on LinkedIn"
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="Varad on LinkedIn" href="http://linkedin.com/in/santhoshoutright"
-              class="hoverline" target="_blank">linkedin.com/in/santhoshoutright</a></a>
+              class="fa fa-linkedin"></i><a aria-label="Santhosh on LinkedIn" href="http://linkedin.com/in/santhoshout"
+              class="hoverline" target="_blank">linkedin.com/in/santhoshout</a></a>
         </p>
       </div>
     </section>
@@ -1004,7 +966,7 @@ of each drug container to estimate the degradation of the drug.
   <!-- typed.js -->
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
-    var typed = new Typed('.typing',{
+    var typed = new Typed('.typing', {
       strings: ["Full Stack Developer", "Web Designer", "Fast Learner", "Passionate Programmer"],
       loop: true,
       typeSpeed: 80,
@@ -1023,10 +985,10 @@ of each drug container to estimate the degradation of the drug.
     $(document).ready(function () {
       $(".scrollspy").scrollSpy()
       // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
+      $(".button-collapse").sidenav({
+        menuWidth: 300, // Default is 240
         edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        closeOnClick: true // Closes sidenav on <a> clicks, useful for Angular/Meteor
       })
     })
   </script>
